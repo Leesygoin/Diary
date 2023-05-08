@@ -16,8 +16,9 @@ public class Post {
     public Post() {
     }
 
-    public Post(String documentId, String title, String contents) {
+    public Post(String documentId, String nickname, String title, String contents) {
         this.documentId = documentId;
+        this.nickname = nickname;
         this.title = title;
         this.contents = contents;
     }
