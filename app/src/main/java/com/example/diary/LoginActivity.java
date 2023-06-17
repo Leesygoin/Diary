@@ -38,10 +38,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onStart() {
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
-        if (user != null) {
+        /*if (user != null) {
             //Toast.makeText(this, "Auto Login: " +user.getUid(), Toast.LENGTH_SHORT).show();
             startActivity(new Intent(this, MainActivity.class));
-        }
+        }*/
     }
 
     @Override
